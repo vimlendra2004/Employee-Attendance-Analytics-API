@@ -1,5 +1,3 @@
-# Employee-Attendance-Analytics-API
-
 Employee Attendance & Analytics API
 
 A FastAPI-based employee attendance management system built with MongoDB. It supports employee management, attendance punch-in/punch-out, and attendance analytics.
@@ -129,9 +127,3 @@ Port already in use
 
 If port "8000" is already occupied, stop the other process using it or choose another port. If you change the port, open the matching URL in your browser.
 
-11. Project Notes
-
-- MongoDB must be running for database-dependent endpoints.
-- Required MongoDB indexes are created by the application during startup.
-- MongoDB connection settings are read from environment variables.
-- The ".env" file and virtual environment should not be committed to GitHub.
